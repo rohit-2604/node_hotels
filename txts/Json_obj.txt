@@ -1,0 +1,12 @@
+const jsonstr = '{"name":"john","age":22, "hobbies":["Reading","Cricket","gardening"]}';
+
+const jsonobj = JSON.parse(jsonstr);//for converting JSON to object
+console.log(jsonobj);
+
+const jsonobj = {
+  name : 'Bob',
+  age : 23
+};
+
+const jsonstr = JSON.stringify(jsonobj);//for converting obj to JSON
+console.log(jsonstr);

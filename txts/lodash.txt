@@ -1,0 +1,13 @@
+const notes = require('./notes')
+var _= require('lodash');
+console.log('server page is ready!');
+var age = notes.age;
+var year = notes.year;
+console.log(age);
+console.log(year);
+var add = notes.addnum(5,3);
+console.log(add);
+
+var data = ['person','person',1,1,2,3,4];
+var filter = _.uniq(data);
+console.log(filter);

@@ -1,0 +1,19 @@
+console.log('server file is running');
+// functions
+
+// 1. function add (a,b){
+//   return a+b;
+// }
+
+// 2.var add = function (a,b){
+//   return a+b;
+// }
+
+// 3. arrow function
+// var add = (a,b) =>{return a+b }
+
+var add =(a,b) =>a+b;
+
+var res = add(5,666);
+console.log(res);
+

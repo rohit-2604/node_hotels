@@ -1,0 +1,22 @@
+const notes = require('./notes')
+
+console.log('server page is ready!');
+var age = notes.age;
+var year = notes.year;
+console.log(age);
+console.log(year);
+var add = notes.addnum(5,3);
+console.log(add);
+
+// from source file
+
+console.log('notes page is ready!');
+
+var age = 22;
+var year = 2024;
+const addnum = (a,b) =>a+b ;
+module.exports = {
+  age,
+  year,
+  addnum
+}
